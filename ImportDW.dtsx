@@ -11,8 +11,8 @@
   DTS:LocaleID="1033"
   DTS:ObjectName="Package1"
   DTS:PackageType="5"
-  DTS:VersionBuild="38"
-  DTS:VersionGUID="{DCCB623D-36C0-4CB0-9C55-F89D297D5726}">
+  DTS:VersionBuild="39"
+  DTS:VersionGUID="{F1BC9BD5-2253-4F67-B2A7-FB4575620DF7}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -582,6 +582,7 @@ FROM [rent a car].dbo.Automobil;</property>
       DTS:refId="Package\Import Dobavljac"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{3BAAD010-FA3B-48E9-9741-8DB1B0807F65}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -904,6 +905,7 @@ WHERE d.id_lokacija = l.id_Lokacija;</property>
       DTS:refId="Package\Import Lokacija"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{C76CFA7D-499F-40A7-9B46-9BFBA6860212}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
@@ -1509,6 +1511,7 @@ FROM [rent a car].dbo.Odjel;</property>
       DTS:refId="Package\Import Poslovnica"
       DTS:CreationName="Microsoft.Pipeline"
       DTS:Description="Data Flow Task"
+      DTS:Disabled="True"
       DTS:DTSID="{2CA3E0E5-1DAD-4582-8041-5BE9D64FA6B8}"
       DTS:ExecutableType="Microsoft.Pipeline"
       DTS:LocaleID="-1"
